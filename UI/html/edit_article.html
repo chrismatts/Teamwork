@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Teamwork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/icons/icons8_Conference_48px.png"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body class="body-ini">
+    <!-- navigation bar -->
+    <div class="fixed-nav ">
+      <nav class="bg-white">
+        <div class="container">
+          <div class="nav-wrapper ">
+            <a href="../index.html" class="logo fg-primary"
+              ><span class="fg-teal">Teamwork</span></a
+            >
+            <ul class="right hide-on-med-sma">
+              <li><a href="../index.html">Home</a></li>
+              <li class="">
+                <a href="post.html"> Post </a>
+              </li>
+              <li class="">
+                <a href="articles.html"> My Articles </a>
+              </li>
+              <li>
+                <a href="new_article.html"> New Article </a>
+              </li>
+              <li>
+                <a href="profile.html">Profile </a>
+              </li>
+              <li>
+                <a href="./signin.html"> log out </a>
+              </li>
+            </ul>
+
+            <div class="sliderout right">
+              <input type="checkbox" id="toggle-menu" />
+              <label for="toggle-menu">&#9776;</label>
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="">
+                  <a href="post.html"> Post </a>
+                </li>
+                <li>
+                  <a class="" href="articles.html"> My Articles </a>
+                </li>
+                <li>
+                  <a href="new_article.html"> New Article </a>
+                </li>
+                <li>
+                  <a href="profile.html">Profile </a>
+                </li>
+                <li>
+                  <a href="./signin.html"> log out </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end of navigation bar -->
+    <div class="row"></div>
+
+    <!-- body of an article -->
+
+    <!-- Post -->
+    <div
+      class="container fine-depth"
+      style="padding: 30px; border-radius: 8px;"
+    >
+      <!-- <div class="container fine-depth" style="padding: 30px; border-radius: 8px; border:1px solid #40c3ff;"></div> -->
+      <div class="row ">
+        <form class="">
+          <div class="row">
+            <div class="col s12">
+              <!-- Titles -->
+              <h1>EDIT AN ARTICLE</h1>
+              <div class="row">
+                <p>
+                  Article title
+                  <span class="fg-red"> *</span>
+                </p>
+                <div class="col s12 m6 l6">
+                  <input
+                    type="text"
+                    placeholder="Title "
+                    value="VACATION"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="row"></div>
+              <!-- Other fields -->
+
+              <div class="row">
+                <p>
+                  Write a description for your Article
+                  <span class="fg-red"> *</span>
+                </p>
+
+                <div class="col s12">
+                  <!-- <input type="password" placeholder="Description " required> -->
+                  <textarea
+                    placeholder="Description"
+                    class="textarea-field"
+                    value=""
+                    required
+                  >
+This time all the employee are going on leave in december.
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus eos alias repellendus doloremque aperiam. Neque quasi earum ipsum doloribus culpa quaerat debitis, delectus hic aliquid omnis, doloremque iure saepe sunt.
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos explicabo tempora culpa hic reprehenderit illo facilis sed quasi a placeat esse nobis dolores quidem deleniti vero sequi voluptas, nam corrupti!</textarea
+                  >
+                </div>
+              </div>
+
+              <div class="col s12 right-align">
+                <div class="col s6" style="padding:0em">
+                  <button
+                    type="button"
+                    onclick="MtArticle.editArticle() "
+                    class="btn bg-primary right"
+                  >
+                    Update Article
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row"></div>
+    <div class="">
+      <nav class="bg-white">
+        <div class="container">
+          <div class="nav-wrapper ">
+            <div class="row">
+              <div class="col s12 center-align">
+                <span class="fg-unfocus">Copyright 2019 - Teamwork</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- end of body -->
+    <script src="../js/mt.js"></script>
+    <script src="../js/articles.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Teamwork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/icons/icons8_Conference_48px.png"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body class="body-ini">
+    <!-- navigation bar -->
+    <div class="fixed-nav ">
+      <nav class="bg-white">
+        <div class="container">
+          <div class="nav-wrapper ">
+            <a href="../index.html" class="logo fg-primary"
+              ><span class="fg-teal">Teamwork</span></a
+            >
+            <ul class="right hide-on-med-sma">
+              <li><a href="../index.html">Home</a></li>
+              <li class="active"><a href="signin.html"> Sign In </a></li>
+            </ul>
+
+            <div class="sliderout right">
+              <input type="checkbox" id="toggle-menu" />
+              <label for="toggle-menu">&#9776;</label>
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a class="active" href="signin.html"> Sign In </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end of navigation bar -->
+
+    <!-- header of the sign up form -->
+    <div class="row">
+      <div class="col s12  bg-white-delay ">
+        <div class="container ">
+          <div class="let " style="padding-left: 0em">
+            <h1>Sign In</h1>
+            <p class="left-align fg-unfocus">
+              Create an account by
+              <a class="fg-primary" href="signup.html"> Sign up </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of of the header of sign up form -->
+
+    <!-- Sign Up -->
+    <div class="container">
+      <div class="row fine-depth " style="padding: 30px; border-radius:8px">
+        <form class="">
+          <div class="row ">
+            <div class="col s12">
+              <input type="email" class="email" placeholder="Email" required />
+              <span class="email-disp-error fg-red icon-size "></span>
+            </div>
+
+            <div class="col s12">
+              <input
+                type="password"
+                class="passcode"
+                placeholder="Password"
+                required
+              />
+              <span class="passcode-disp-error fg-red icon-size "></span>
+            </div>
+
+            <div class="col s12 center">
+              <button
+                type="button"
+                class="btn bg-primary login"
+                onclick="new Signin()"
+              >
+                Sign in
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end of sign up form -->
+    <script src="../js/mt.js"></script>
+    <script src="../js/signin.js"></script>
+  </body>
+</html>

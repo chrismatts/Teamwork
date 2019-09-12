@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Teamwork</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../assets/icons/icons8_Conference_48px.png"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body class="body-ini">
+    <!-- navigation bar -->
+    <div class="fixed-nav ">
+      <nav class="bg-white">
+        <div class="container">
+          <div class="nav-wrapper ">
+            <a href="../index.html" class="logo fg-primary"
+              ><span class="fg-teal">Teamwork</span></a
+            >
+            <ul class="right hide-on-med-sma">
+              <li><a href="../index.html">Home</a></li>
+              <li class="">
+                <a href="post.html"> Post </a>
+              </li>
+              <li class="active">
+                <a href="articles.html"> My Articles </a>
+              </li>
+              <li>
+                <a href="new_article.html"> New Article </a>
+              </li>
+              <li>
+                <a href="profile.html">Profile </a>
+              </li>
+              <li>
+                <a href="./signin.html"> log out </a>
+              </li>
+            </ul>
+
+            <div class="sliderout right">
+              <input type="checkbox" id="toggle-menu" />
+              <label for="toggle-menu">&#9776;</label>
+              <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li class="">
+                  <a href="post.html"> Post </a>
+                </li>
+                <li>
+                  <a class="active" href="articles.html"> My Articles </a>
+                </li>
+                <li>
+                  <a href="new_article.html"> New Article </a>
+                </li>
+                <li>
+                  <a href="profile.html">Profile </a>
+                </li>
+                <li>
+                  <a href="./signin.html"> log out </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end of navigation bar -->
+    <div class="row"></div>
+
+    <!-- body of an employee -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card ">
+            <br />
+
+            <div class="card-body remove-padding-top not-apply-height">
+              <h3 style="color:lightslategray">
+                Title: <i>Rules of the company</i>
+              </h3>
+              <p class="description">
+                The Today we are going to talk about new rules. After analyzing
+                our latest Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Rerum modi natus incidunt pariatur impedit omnis ipsa
+                soluta, voluptatibus et doloribus! Consequatur praesentium,
+                corrupti corporis earum ut asperiores officia illum velit?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, consequuntur delectus incidunt consectetur magnam
+                corporis quisquam id eos assumenda maiores? Asperiores
+                accusantium vero inventore optio incidunt, deserunt similique
+                iusto hic?...
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <button class="btn-align bg-white fg-back ">
+                <i class="material-icons fg-primary">20</i>
+              </button>
+              <button class="btn-align bg-white fg-back  right">
+                Comments
+              </button>
+            </div>
+
+            <div class="row">
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="edit_article.html">
+                  <i class="material-icons fg-blue">edit</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align " style="padding:0px;">
+                <a href="#" onclick="MtArticle.deleteArticle()">
+                  <i class="material-icons fg-red">delete</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="#" onclick="MtArticle.hideArticle()">
+                  <i class="material-icons fg-black">hide</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="./article.html">
+                  <i class="material-icons fg-primary">read</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card ">
+            <br />
+
+            <div class="card-body remove-padding-top not-apply-height">
+              <h3 style="color:lightslategray">
+                Title: <i>Rules of the company</i>
+              </h3>
+              <p class="description">
+                The Today we are going to talk about new rules. After analyzing
+                our latest Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Rerum modi natus incidunt pariatur impedit omnis ipsa
+                soluta, voluptatibus et doloribus! Consequatur praesentium,
+                corrupti corporis earum ut asperiores officia illum velit?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, consequuntur delectus incidunt consectetur magnam
+                corporis quisquam id eos assumenda maiores? Asperiores
+                accusantium vero inventore optio incidunt, deserunt similique
+                iusto hic?...
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <button class="btn-align bg-white fg-back ">
+                <i class="material-icons fg-primary">20</i>
+              </button>
+              <button class="btn-align bg-white fg-back  right">
+                Comments
+              </button>
+            </div>
+
+            <div class="row">
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="edit_article.html">
+                  <i class="material-icons fg-blue">edit</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align " style="padding:0px;">
+                <a href="#" onclick="MtArticle.deleteArticle()">
+                  <i class="material-icons fg-red">delete</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="#" onclick="MtArticle.hideArticle()">
+                  <i class="material-icons fg-black">hide</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="./article.html">
+                  <i class="material-icons fg-primary">read</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card ">
+            <br />
+
+            <div class="card-body remove-padding-top not-apply-height">
+              <h3 style="color:lightslategray">
+                Title: <i>Rules of the company</i>
+              </h3>
+              <p class="description">
+                The Today we are going to talk about new rules. After analyzing
+                our latest Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Rerum modi natus incidunt pariatur impedit omnis ipsa
+                soluta, voluptatibus et doloribus! Consequatur praesentium,
+                corrupti corporis earum ut asperiores officia illum velit?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur, consequuntur delectus incidunt consectetur magnam
+                corporis quisquam id eos assumenda maiores? Asperiores
+                accusantium vero inventore optio incidunt, deserunt similique
+                iusto hic?...
+              </p>
+            </div>
+
+            <div class="card-footer">
+              <button class="btn-align bg-white fg-back ">
+                <i class="material-icons fg-primary">20</i>
+              </button>
+              <button class="btn-align bg-white fg-back  right">
+                Comments
+              </button>
+            </div>
+
+            <div class="row">
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="edit_article.html">
+                  <i class="material-icons fg-blue">edit</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align " style="padding:0px;">
+                <a href="#" onclick="MtArticle.deleteArticle()">
+                  <i class="material-icons fg-red">delete</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="#" onclick="MtArticle.hideArticle()">
+                  <i class="material-icons fg-black">hide</i>
+                </a>
+              </div>
+
+              <div class="col s3 center-align" style="padding:0px;">
+                <a href="./article.html">
+                  <i class="material-icons fg-primary">read</i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination -->
+        <div class="col s12">
+          <ul class="pagination right">
+            <li class="disabled paged-back"><a href="#!"> Prev </a></li>
+
+            <li class="bg-primary active"><a href="#!">1</a></li>
+            <li><a href="#!">2</a></li>
+            <li><a href="#!">3</a></li>
+            <li><a href="#!">4</a></li>
+            <li><a href="#!">5</a></li>
+
+            <li class="paged-to-next"><a href="#!"> Next </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="row"></div>
+    <div class="">
+      <nav class="bg-white">
+        <div class="container">
+          <div class="nav-wrapper ">
+            <div class="row">
+              <div class="col s12 center-align">
+                <span class="fg-unfocus">Copyright 2019 - Teamwork</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- end of body -->
+    <script src="../js/mt.js"></script>
+    <script src="../js/articles.js"></script>
+  </body>
+</html>
